@@ -1,0 +1,11 @@
+# Tomcat configuration
+server:
+  port: 8000
+
+# Admin configuration
+spring:
+  boot:
+    admin:
+      context-path: /admin
+      ui:
+        title: Codecriticon Admin
